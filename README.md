@@ -4,3 +4,7 @@ The Wikipedia page ["List of programming languages"](https://en.wikipedia.org/wi
 
 _Forked from https://github.com/scienceai/list-of-programming-languages_
 
+
+## What's next
+
+Implement https://github.com/scienceai/list-of-programming-languages/issues/2
