@@ -1,5 +1,5 @@
 {
-  "name": "list-of-programming-languages",
+  "name": "wikipedia-programming-languages-scraper",
   "version": "2.0.2",
   "description": "The Wikipedia page \"List of programming languages\" converted into JSON-LD",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scienceai/list-of-programming-languages.git"
+    "url": "https://github.com/scienceai/wikipedia-programming-languages-scraper.git"
   },
   "keywords": [
     "programming",
@@ -20,13 +20,17 @@
   "author": "Sebastien Ballesteros",
   "license": "Apache-v2",
   "bugs": {
-    "url": "https://github.com/scienceai/list-of-programming-languages/issues"
+    "url": "https://github.com/scienceai/wikipedia-programming-languages-scraper/issues"
   },
-  "homepage": "https://github.com/scienceai/list-of-programming-languages",
+  "homepage": "https://github.com/scienceai/wikipedia-programming-languages-scraper",
   "devDependencies": {
     "cheerio": "^0.22.0",
     "lodash": "^4.17.4",
     "mocha": "^5.2.0",
     "request": "^2.79.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-fetch": "^2.3.0"
   }
 }
