@@ -96,8 +96,8 @@ const list = {
 // });
 
 const queryWikipedia = () => axios.get(lplUrl);
-const queryWikiData = (url) => api.get(url);
-
+const queryWikiData = url => axios.get(url);
+console.time();
 const process = async () => {
   const wikipediaData = await queryWikipedia()
   const html = wikipediaData.data.toString();
@@ -116,11 +116,51 @@ const process = async () => {
     });
   });
   
+  list.itemListElement = uniqBy(
+    list.itemListElement.concat(ml.map(function(item) {
+      return {
+        "@type": 'ListItem',
+        item: {
+          '@id': item.url,
+          '@type': 'ComputerLanguage',
+          name: item.name
+        }
+      };
+    })).sort(function(a, b) {
+      return a.item.name.localeCompare(b.item.name);
+    }).map(function(itemListElement, i) {
+      return Object.assign(itemListElement, { position: i });
+    }),
+    function(itemListElement) {
+      return itemListElement.item['@id'];
+    }
+  );
+
+  for (element in list.itemListElement) {
+    console.log('Before Query => ', list.itemListElement[element].item['@id'])
+    try {
+      // FIXME: make async calls 
+      const wikiData = await queryWikiData(list.itemListElement[element].item['@id'])
+      console.log(wikiData.status)
+      if (wikiData.status === 200 ) {
+        const html = wikiData.data.toString()
+        const $ = cheerio.load(html)
+        const wikidataPage = $('#t-wikibase a').attr('href')
+        list.itemListElement[element].item['wikidata'] = wikidataPage
+      }
+    } catch(error) {
+      list.itemListElement[element].item['wikidata'] = '';
+    }
+  }
+
   return list
 }
 
-
 process()
 .then(data => {
-  console.log('Done process!', data)
+  fs.writeFile('../data/programming-languages.json', JSON.stringify(data, null, 2), function(err) {
+    if (err) return console.error(err);
+  });
+
+  console.timeEnd();
 })
