@@ -8,6 +8,9 @@
         },
     ]
  */
+console.log("-------------------------------------------")
+console.log(" Creating programming list ")
+console.log("-------------------------------------------")
 const util = require('./util.js')
 const slugify = (text) => (text.toString().toLowerCase()
 .replace(/\s+/g, '-')           // Replace spaces with -
@@ -29,7 +32,7 @@ const slugify = (text) => (text.toString().toLowerCase()
 
 console.log(languages)
 try {
-    util.saveToFile('./data/list.json', languages)
+    util.saveToFile('../data/list.json', languages)
     console.log('Done creating programming language list')
 } catch (error) {
     console.error(error)

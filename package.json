@@ -4,7 +4,9 @@
   "description": "The Wikipedia page \"List of programming languages\" converted into JSON-LD",
   "main": "index.js",
   "scripts": {
-    "build": "(cd src && node index.js)",
+    "scraper": "(cd src && node index.js)",
+    "list": "(cd src && node list.js)",
+    "build": "npm run scraper && npm run list",
     "test": "mocha"
   },
   "repository": {
