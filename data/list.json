@@ -20,6 +20,238 @@
     "slug": "formula"
   },
   {
+    "name": "A-0 System",
+    "slug": "a-0-system"
+  },
+  {
+    "name": "A# .NET",
+    "slug": "a-net"
+  },
+  {
+    "name": "A# (Axiom)",
+    "slug": "a-axiom"
+  },
+  {
+    "name": "A+",
+    "slug": "a"
+  },
+  {
+    "name": "A++",
+    "slug": "a"
+  },
+  {
+    "name": "ABAP",
+    "slug": "abap"
+  },
+  {
+    "name": "ABC",
+    "slug": "abc"
+  },
+  {
+    "name": "ABC ALGOL",
+    "slug": "abc-algol"
+  },
+  {
+    "name": "ABSET",
+    "slug": "abset"
+  },
+  {
+    "name": "ABSYS",
+    "slug": "absys"
+  },
+  {
+    "name": "ACC",
+    "slug": "acc"
+  },
+  {
+    "name": "Accent",
+    "slug": "accent"
+  },
+  {
+    "name": "Ace DASL (Distributed Application Specification Language)",
+    "slug": "ace-dasl-distributed-application-specification-language"
+  },
+  {
+    "name": "ACL2",
+    "slug": "acl2"
+  },
+  {
+    "name": "ACT-III",
+    "slug": "act-iii"
+  },
+  {
+    "name": "Action!",
+    "slug": "action"
+  },
+  {
+    "name": "ActionScript",
+    "slug": "actionscript"
+  },
+  {
+    "name": "Active Server Pages",
+    "slug": "active-server-pages"
+  },
+  {
+    "name": "Actor",
+    "slug": "actor"
+  },
+  {
+    "name": "Ada",
+    "slug": "ada"
+  },
+  {
+    "name": "Adenine",
+    "slug": "adenine"
+  },
+  {
+    "name": "Agda",
+    "slug": "agda"
+  },
+  {
+    "name": "Agilent VEE",
+    "slug": "agilent-vee"
+  },
+  {
+    "name": "Agora",
+    "slug": "agora"
+  },
+  {
+    "name": "AIMMS",
+    "slug": "aimms"
+  },
+  {
+    "name": "Aldor",
+    "slug": "aldor"
+  },
+  {
+    "name": "Alef",
+    "slug": "alef"
+  },
+  {
+    "name": "ALF",
+    "slug": "alf"
+  },
+  {
+    "name": "ALGOL 58",
+    "slug": "algol-58"
+  },
+  {
+    "name": "ALGOL 60",
+    "slug": "algol-60"
+  },
+  {
+    "name": "ALGOL 68",
+    "slug": "algol-68"
+  },
+  {
+    "name": "ALGOL W",
+    "slug": "algol-w"
+  },
+  {
+    "name": "Alice",
+    "slug": "alice"
+  },
+  {
+    "name": "Alma-0",
+    "slug": "alma-0"
+  },
+  {
+    "name": "AmbientTalk",
+    "slug": "ambienttalk"
+  },
+  {
+    "name": "Amiga E",
+    "slug": "amiga-e"
+  },
+  {
+    "name": "AMOS",
+    "slug": "amos"
+  },
+  {
+    "name": "AMPL",
+    "slug": "ampl"
+  },
+  {
+    "name": "AngelScript",
+    "slug": "angelscript"
+  },
+  {
+    "name": "Apex",
+    "slug": "apex"
+  },
+  {
+    "name": "APL",
+    "slug": "apl"
+  },
+  {
+    "name": "App Inventor for Android's visual block language",
+    "slug": "app-inventor-for-androids-visual-block-language"
+  },
+  {
+    "name": "AppleScript",
+    "slug": "applescript"
+  },
+  {
+    "name": "APT",
+    "slug": "apt"
+  },
+  {
+    "name": "Arc",
+    "slug": "arc"
+  },
+  {
+    "name": "ARexx",
+    "slug": "arexx"
+  },
+  {
+    "name": "Argus",
+    "slug": "argus"
+  },
+  {
+    "name": "AspectJ",
+    "slug": "aspectj"
+  },
+  {
+    "name": "Assembly language",
+    "slug": "assembly-language"
+  },
+  {
+    "name": "Ateji PX",
+    "slug": "ateji-px"
+  },
+  {
+    "name": "ATS",
+    "slug": "ats"
+  },
+  {
+    "name": "Autocoder",
+    "slug": "autocoder"
+  },
+  {
+    "name": "AutoHotkey",
+    "slug": "autohotkey"
+  },
+  {
+    "name": "AutoIt",
+    "slug": "autoit"
+  },
+  {
+    "name": "AutoLISP / Visual LISP",
+    "slug": "autolisp-visual-lisp"
+  },
+  {
+    "name": "Averest",
+    "slug": "averest"
+  },
+  {
+    "name": "AWK",
+    "slug": "awk"
+  },
+  {
+    "name": "Axum",
+    "slug": "axum"
+  },
+  {
     "name": "B",
     "slug": "b"
   },
@@ -564,10 +796,6 @@
     "slug": "factor"
   },
   {
-    "name": "Falcon",
-    "slug": "falcon"
-  },
-  {
     "name": "Fantom",
     "slug": "fantom"
   },
@@ -1050,10 +1278,6 @@
   {
     "name": "Ladder",
     "slug": "ladder"
-  },
-  {
-    "name": "Lagoona",
-    "slug": "lagoona"
   },
   {
     "name": "LANSA",
@@ -2332,10 +2556,6 @@
     "slug": "tie"
   },
   {
-    "name": "Titanum",
-    "slug": "titanum"
-  },
-  {
     "name": "TMG",
     "slug": "tmg"
   },
@@ -2476,10 +2696,6 @@
     "slug": "visual-j"
   },
   {
-    "name": "Visual LISP",
-    "slug": "visual-lisp"
-  },
-  {
     "name": "Visual Objects",
     "slug": "visual-objects"
   },
@@ -2502,10 +2718,6 @@
   {
     "name": "WebDNA",
     "slug": "webdna"
-  },
-  {
-    "name": "WebQL",
-    "slug": "webql"
   },
   {
     "name": "Whiley",
