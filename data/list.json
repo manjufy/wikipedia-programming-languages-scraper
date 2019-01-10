@@ -260,6 +260,10 @@
     "slug": "babbage"
   },
   {
+    "name": "Ballerina",
+    "slug": "ballerina"
+  },
+  {
     "name": "bash",
     "slug": "bash"
   },
@@ -2028,6 +2032,10 @@
     "slug": "postscript"
   },
   {
+    "name": "POV-Ray SDL",
+    "slug": "pov-ray-sdl"
+  },
+  {
     "name": "PowerBuilder",
     "slug": "powerbuilder"
   },
@@ -2706,34 +2714,6 @@
   {
     "name": "VSXu",
     "slug": "vsxu"
-  },
-  {
-    "name": "WATFIV, WATFOR",
-    "slug": "watfiv-watfor"
-  },
-  {
-    "name": "WebAssembly",
-    "slug": "webassembly"
-  },
-  {
-    "name": "WebDNA",
-    "slug": "webdna"
-  },
-  {
-    "name": "Whiley",
-    "slug": "whiley"
-  },
-  {
-    "name": "Winbatch",
-    "slug": "winbatch"
-  },
-  {
-    "name": "Wolfram Language",
-    "slug": "wolfram-language"
-  },
-  {
-    "name": "Wyvern",
-    "slug": "wyvern"
   },
   {
     "name": "X++",
