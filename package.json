@@ -27,7 +27,7 @@
   "homepage": "https://github.com/scienceai/wikipedia-programming-languages-scraper",
   "devDependencies": {
     "cheerio": "^0.22.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "mocha": "^5.2.0",
     "request": "^2.79.0"
   },
