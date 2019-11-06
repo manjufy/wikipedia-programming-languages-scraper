@@ -32,7 +32,7 @@
     "request": "^2.79.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "node-fetch": "^2.3.0"
   }
 }
